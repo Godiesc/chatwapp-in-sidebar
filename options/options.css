@@ -1,0 +1,176 @@
+/* Variables para el modo claro */
+:root {
+    --bg: #fcfcfc;
+    --contrast-background: color-mix(in srgb, #eaeaea, transparent);
+    --button: color-mix(in srgb, var(--bg)70%, var(--text));
+    --accent-color: #0060df;
+    --border-color: #50505090;
+    --outline-color: #505050;
+    --text: #333;
+    --text-secondary: #999999;
+}
+  
+/* Variables para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+:root {
+    --bg: #1e1e27;
+    --contrast-background: color-mix(in srgb, #121212, transparent);
+    --button: #48484f;
+    --accent-color: #0060df;
+    --border-color: #50505090;
+    --outline-color: #505050ee;
+    --text: #eee;
+    --text-secondary: #999999;
+    }
+}
+  
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+/* Colores título */
+
+.fa-brands.fa-whatsapp, 
+.title{
+    color: var(--text);
+}
+
+.subtitle{
+    color: var(--text-secondary);
+}
+
+.fa-brands.fa-whatsapp{
+    width: 30px;
+    height: 30px;
+    color: #25d366;
+    text-align: center;
+}
+
+/* Mensaje de éxito */
+
+#success_message,
+#failure_message{
+    position: fixed;
+    width: fit-content;
+    background-color: #18a04a;
+    border-radius: 5px;
+    color: white;
+    margin-block: 10px;
+    padding-inline: 4px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;  
+}
+
+/* Mensaje de error */
+
+#failure_message{
+    background-color: #aa1a1a;
+}
+
+#failure_message a{
+    color: white;
+    text-decoration: underline solid white;
+    border-radius: 5px;
+    padding-inline: 4px;
+}
+
+#failure_message a:hover{
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: underline solid white;
+}
+
+/* Pie de página */
+
+.piedepagina{
+    font-size: x-small;
+}
+
+/* Smooth transition */
+
+* {
+    transition: all 200ms;
+    text-align: center;
+    overflow-y: hidden !important;
+}
+
+section {
+    padding-top: 1rem !important;
+}
+
+h1 {
+    line-height: 1.5 !important;
+}
+
+#author {
+    padding-top: 4rem;
+}
+
+input {
+    margin: 0.5rem 0;
+    max-width: 10rem !important;
+    height: 2rem !important;
+}
+
+#shortcut{
+    background-color: var(--contrast-background);
+    border: 1px solid var(--outline-color);
+    color: var(--text);
+    border-radius: 2px;
+    transition-duration: 200ms;
+}
+
+#shortcut:hover{
+    outline-color: var(--outline-color);
+    color: var(--text);
+    box-shadow: none;
+}
+
+#shortcut:focus{
+    border-color: var(--accent-color) ;
+    outline: 1px solid var(--accent-color);
+}
+
+#update, #reset {
+    background-color: var(--button);
+    color: var(--text);
+    border-radius: 5px !important;
+    border-color: var(--button);
+    border-style: solid;
+    padding: 4px 6px;
+}
+
+#update:hover, #reset:hover {
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 5px !important;
+    border-color: var(--accent-color);
+    border-style: solid;
+    cursor: pointer;
+}
+
+.site-author {
+    color: var(--accent-color);
+}
+
+.site-author:hover, .piedepagina a:hover {
+    color: var(--accent-color);
+    text-decoration: underline solid var(--accent-color);
+}
+
+.fa-heart {
+    color: var(--accent-color);
+    width: 18px;
+}
+
+.fa-heart:hover {
+    color: #d22809;
+}
+
+::selection {
+    background: var(--accent-color);
+    color: #ffffff;
+}

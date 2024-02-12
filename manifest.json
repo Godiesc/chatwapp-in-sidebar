@@ -1,0 +1,56 @@
+{
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ChatwappInSidebar@Godie"
+    }
+  },
+  "name": "Chatwapp in Sidebar",
+  "description": "Displays a sidebar that lets you talk to your friends.  Define and use a shortcut to fast access.",
+  "version": "1.1",
+  "icons": {
+    "512": "icons/logo_chatwapp.svg"
+  },
+  "permissions": [
+    "https://web.whatsapp.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "css": [
+        "whatsapp/whatsapp.css"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Alt+W"
+      },
+      "description": "Toggle Chatwapp in the sidebar."
+    }
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "512": "icons/logo_chatwappfill.svg"
+    },
+    "default_title": "Chatwapp",
+    "default_panel": "whatsapp/whatsapp.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "512": "icons/logo_chatwapp.svg"
+    }
+  }
+}
