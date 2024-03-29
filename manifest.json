@@ -7,9 +7,9 @@
   },
   "name": "Chatwapp in Sidebar",
   "description": "Displays a sidebar that lets you talk to your friends.  Define and use a shortcut to fast access.",
-  "version": "1.1",
+  "version": "1.2",
   "icons": {
-    "512": "icons/logo_chatwapp.svg"
+    "512": "icons/logo_chatwappfill.svg"
   },
   "permissions": [
     "https://web.whatsapp.com/"
@@ -50,7 +50,7 @@
   },
   "browser_action": {
     "default_icon": {
-      "512": "icons/logo_chatwapp.svg"
+      "512": "icons/logo_chatwappfill.svg"
     }
   }
 }
