@@ -7,37 +7,43 @@
     width: 100% !important;
   }
 
-  ._1jJ70 {
+  ._aigs {
     min-width: 393px !important;
+  }
+
+  /* Quita espacio innecesario de la barra de dessplazamiento general */
+
+  #whatsapp-web {
+    scrollbar-width: none !important; 
   }
 
   /* Página inicial informativa de whatsapp */
 
-  ._64p9P {
+  ._aigv._aigz {
     min-width: 310px !important;
     max-width: 100% !important;
-    padding-inline-start: 76px !important;
+    margin-inline-start: 76px !important; 
   }
 
-  ._3SOOk img {
+  ._al_n img {
     min-width: 210px !important;
     max-width: 100% !important;
   }
 
-  .ubfBJ {
-    margin-inline-start: 96px !important;
+  ._al_x {
+    margin-inline-start: 20px !important;
   }
 
   /* Estados */
 
-  .statusList ._8nE1Y {
+  .statusList ._ak8l {
     margin-inline-start: 30px !important;
   }
 
   /* left-sidebar */
 
-  ._3RGKj,
-  .g0rxnol2.ercejckq.cm280p3y.p357zi0d.gndfcl4n.kcgo1i74.ln8gz9je.e8h85j61.emrlamx0.aiput80m.lyvj5e2u.l9g3jx6n.f6ipylw5 {
+  ._aigv._aigw,
+  ._aigv._aigw>header {
     position: absolute !important;
     min-width: 76px !important;
     box-shadow: 0 1px 0px rgba(var(--shadow-rgb), .4) !important;
@@ -57,21 +63,21 @@
     scrollbar-width: none !important;
   }
 
-  ._3RGKj:hover #pane-side {
+  ._aigv._aigw:hover #pane-side {
     scrollbar-width: thin !important;
   }
 
   /* Elimina el elemento de 'mensajes cifrados' */
 
-  .cm280p3y.p357zi0d.gndfcl4n.ac2vgrno.eg3lofc5.gqi0zhd6.pz0xruzv.nzcjdldu.emrlamx0.swyb62mu.tviruh8d {
+  .x9f619.x78zum5.x6s0dn4.xl56j7k.xcxhlts.xktsk01.x1fqp7bg.x1d52u69.x889kno.x1e0juf7.xzwifym {
     display: none !important;
   }
 
   /* Ampliar left-sidebar :hover */
 
-  ._3RGKj:hover #side,
-  ._3RGKj:hover,
-  ._3RGKj:hover .g0rxnol2.ercejckq.cm280p3y.p357zi0d.gndfcl4n.kcgo1i74.ln8gz9je.e8h85j61.emrlamx0.aiput80m.lyvj5e2u.l9g3jx6n.f6ipylw5 {
+  ._aigv._aigw:hover #side,
+  ._aigv._aigw:hover,
+  ._aigv._aigw:hover > header {
     min-width: 280px !important;
     transition-duration: 200ms !important;
     box-shadow: 1px 0 0 0 #50505050,
@@ -81,25 +87,25 @@
 
   /* margen foto de la cuenta */
 
-  .lyvj5e2u {
-    padding-inline-start: 18px !important;
+  ._ak0w {
+    padding-inline-start: 2px !important;
   }
 
   /* Botones del header (left-sidebar) */
 
-  ._604FD {
-    margin-inline-start: 20px !important;
+  ._ak0z{
+    margin-inline-start: 36px !important;
   }
 
-  ._604FD div {
+  ._ajv1{
     margin-inline: 1px !important;
   }
 
-  .kcgo1i74 {
+  .x13a6bvl {
     justify-content: flex-start !important;
   }
 
-  ._3RGKj:not(:hover) ._604FD div {
+  ._aigv._aigw:not(:hover) ._ajv1{
     display: none !important;
   }
 
@@ -108,32 +114,30 @@
   #main {
     min-width: 310px !important;
     max-width: 100% !important;
-    margin-inline-start: 76px !important;
-    /*z-index: 1001 !important;/**/
   }
 
   /* borde superior */
 
-  .AmmtE {
+  ._amid {
     box-shadow: 0 1px 0px rgba(var(--shadow-rgb), 1) !important;
   }
 
   /* Ancho de la sección de configuración */
 
-  ._2Ts6i._3RGKj._318SY {
+  ._aigv._aigw._aigx {
     max-width: 100% !important;
     min-width: 100% !important;
   }
 
   /* popup al reenviar un mensaje */
 
-  .s4r5ooj2 {
+  .x9f619.x78zum5.xdt5ytf.x6s0dn4.xl56j7k.xh8yej3.xpb48g7.x1jn0hjm.x1us19tq {
     min-width: 100% !important;
   }
 
   /* Cambiar Tema */
 
-  .hblzrxh7 {
+  .xvue9z {
     width: 90% !important;
   }
 
@@ -145,7 +149,7 @@
   }
 
   /* Sidebar derecha sobre sección del chat */
-  .three ._1xFRo {
+  .three ._aig- {
     min-width: 100% !important;
     max-width: 100% !important;
     z-index: 1002 !important;
@@ -155,35 +159,35 @@
   /* Cuadro de buscar... */
 
   /* ícono */
-  ._28iyj {
+  ._ai0b._ai08 {
     top: 5px !important;
     inset-inline-end: 4px !important;
   }
 
   /* letras */
-  ._3sHED {
+  ._ah_- {
     inset-inline-start: 30px !important;
     direction: ltr !important;
   }
 
   /* cuadro clicleable */
-  ._2vDPL {
+  ._ai05 {
     direction: ltr !important;
     margin-inline-end: 6px !important;
     padding-inline-start: 0px !important;
   }
 
-  #side .selectable-text.copyable-text.iq0m558w.g0rxnol2 {
+  #side .selectable-text.copyable-text.x15bjb6t.x1n2onr6 {
     padding-inline-start: 31px !important;
   }
 
   /* Iconos de 'filtrar mensajes no leídos y 'cuadro de busqueda' en reversa */
 
-  ._3wQ5i {
+  ._ak9t {
     direction: rtl !important;
   }
 
-  .fooq7fky {
+  .x1i64zmx {
     margin-inline-end: -8px !important;
   }
 }
